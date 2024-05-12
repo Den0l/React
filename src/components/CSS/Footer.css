@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px) {
 .TextDown {
   display: flex;
   top: -65%;
@@ -8,14 +9,14 @@
   .RightWord{
     color:white;
     margin-left: auto;
-    font-family: 'Misto';
+    font-family: 'Comfortaa';
     padding-right: 1%;
   }
 
   .LeftWord{
       color:white;
       margin-right: auto;
-      font-family: 'Misto';
+      font-family: 'Comfortaa';
       padding-left: 1%;
   }
   
@@ -23,4 +24,67 @@
   .RightWord:hover {
     text-decoration: underline;
   }
+}
+
+/*Планешт*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .TextDown
+    {
+        display: flex;
+        height: 5px;
+        position: relative;
+    }
+    
+    .RightWord
+    {
+        color:white;
+        margin-right: 35%;
+        font-family: 'Comfortaa';
+        padding-right: 1%;
+    }
   
+    .LeftWord
+    {
+        color:white;
+        margin-right: auto;
+        font-family: 'Comfortaa';
+        padding-left: 1%;
+        height: 5px;
+    }
+    
+    .LeftWord:hover,
+    .RightWord:hover {
+      text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .TextDown
+    {
+        display: flex;
+        height: 5px;
+        position: relative;
+    }
+    
+    .RightWord
+    {
+      color:white;
+      margin-right: 35%;
+      font-family: 'Comfortaa';
+      padding-right: 1%;
+    }
+  
+    .LeftWord
+    {
+        color:white;
+        margin-right: auto;
+        font-family: 'Comfortaa';
+        padding-left: 1%;
+        height: 5px;
+    }
+    
+    .LeftWord:hover,
+    .RightWord:hover {
+      text-decoration: underline;
+    }
+}
