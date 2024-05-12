@@ -1,5 +1,5 @@
 
-  
+@media only screen and (min-width: 1024px) {
   .Kalush {
     padding-left: 145px;
     color: white;
@@ -37,4 +37,86 @@
     font-family: 'Comfortaa';
     position: relative;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .Kalush {
+    padding-left: 19%;
+        color: white;
+        font-size: 60px;
+        margin-top: 2%;
+        font-family: 'Misto' ;
+        position: relative;
+        z-index: 4;
+  }
   
+  .Photo {
+    height: 50%;
+        width: 50%;
+        margin-left: 7%;
+        margin-right: 10%;
+        margin-top: -17%;
+        position: relative;
+        z-index: 2;
+  }
+  
+  .TextTwo {
+    padding-left: 5%;
+        color: white;
+        font-size: 60px;
+        top: -105%;
+        z-index: 3;
+        font-family: 'Misto' ;
+        position: relative;
+  }
+  
+  .Text {
+    margin-left: 18%;
+        color: white;
+        font-size: 22px;
+        top: -150%;
+        font-family: 'Comfortaa';
+        position: relative;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Kalush {
+    padding-left: 14%;
+    color: white;
+    font-size: 60px;
+    margin-top: 2%;
+    font-family: 'Misto' ;
+    position: relative;
+    z-index: 4;
+  }
+  
+  .Photo {
+    height: 60%;
+    width: 60%;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: -22%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .TextTwo {
+    padding-left: -1%;
+    color: white;
+    font-size: 60px;
+    top: -105%;
+    z-index: 3;
+    font-family: 'Misto' ;
+    position: relative;
+  }
+  
+  .Text {
+    margin-left: 14%;
+    color: white;
+    font-size: 22px;
+    top: -100%;
+    font-family: 'Comfortaa';
+    position: relative;
+  }
+}
