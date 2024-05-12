@@ -1,0 +1,22 @@
+.TextUp {
+  display: flex;
+  height: 50px;
+  position: relative;
+  }
+  
+.RightWord{
+    color:white;
+    margin-left: auto;
+    font-family: 'Misto';
+    padding-right: 1%;
+  }
+
+  .LeftWord{
+      color:white;
+      margin-right: auto;
+      font-family: 'Misto';
+      padding-left: 1%;
+  }
+
+
+  

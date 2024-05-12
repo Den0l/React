@@ -1,0 +1,26 @@
+.TextDown {
+  display: flex;
+  top: -65%;
+  height: 200px;
+  position: relative;
+  }
+  
+  .RightWord{
+    color:white;
+    margin-left: auto;
+    font-family: 'Misto';
+    padding-right: 1%;
+  }
+
+  .LeftWord{
+      color:white;
+      margin-right: auto;
+      font-family: 'Misto';
+      padding-left: 1%;
+  }
+  
+  .LeftWord:hover,
+  .RightWord:hover {
+    text-decoration: underline;
+  }
+  

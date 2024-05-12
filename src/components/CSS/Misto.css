@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Misto';
+    src: url('/public/fonts/Misto.eot');
+    src: url('/public/fonts/Misto.eot') format('embedded-opentype'),
+         url('/public/fonts/Misto.woff2') format('woff2'),
+         url('/public/fonts/Misto.woff') format('woff'),
+         url('/public/fonts/Misto.ttf') format('truetype'),
+         url('/public/fonts/Misto.svg') format('svg');
+}

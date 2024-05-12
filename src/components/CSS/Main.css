@@ -1,0 +1,40 @@
+
+  
+  .Kalush {
+    padding-left: 145px;
+    color: white;
+    font-size: 120px;
+    margin-top: -12px;
+    font-family: 'Misto' ;
+    position: relative;
+    z-index: 4;
+  }
+  
+  .Photo {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -300px;
+    margin-bottom: -180px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .TextTwo {
+    left: 22%;
+    color: white;
+    font-size: 120px;
+    top: -41%;
+    z-index: 1;
+    font-family: 'Misto' ;
+    position: relative;
+  }
+  
+  .Text {
+    margin-left: 65%;
+    color: white;
+    font-size: 10px;
+    top: -33%;
+    font-family: 'Comfortaa';
+    position: relative;
+  }
+  
